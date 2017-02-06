@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint @navahq/eslint-config-nava
+$ npm install --save-dev eslint navahq/eslint-config-nava
 ```
 
 
