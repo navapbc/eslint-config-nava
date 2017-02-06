@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-nava",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the Nava style",
+  "license": "Apache-2.0",
+  "repository": "navahq/eslint-config-nava",
+  "author": "Nava PBC",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.8.1"
+  }
+}
