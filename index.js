@@ -5,6 +5,7 @@ module.exports = {
     'indent': [2, 2],
     'quotes': [2, 'single'],
     'linebreak-style': [2, 'unix'],
+    'no-alert': 'error',
     'new-cap': [2, {
       'newIsCapExceptions': ['baseError']
     }],
