@@ -5,6 +5,8 @@
 
 ## Installation
 
+Note: This package isn't published to NPM yet, so you'll need to reference it by its repo when installing, for now:
+
 ```
 $ npm install --save-dev eslint navahq/eslint-config-nava
 ```
