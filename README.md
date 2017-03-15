@@ -24,18 +24,3 @@ Once the `eslint-config-nava` package is installed, you can use it by specifying
   }
 }
 ```
-
-### Using the `nava` config with `eslint:recommended`
-
-It's suggested to use the `nava` ruleset alongside the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/).
-
-To use in conjunction with ESLint's recommended rule set, extend them both, making sure to list `nava` last:
-
-```js
-{
-  "extends": ["eslint:recommended", "nava"],
-  "rules": {
-    // Additional, per-project rules...
-  }
-}
-```
