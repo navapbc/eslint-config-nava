@@ -1,8 +1,5 @@
 module.exports = {
   extends: ['standard', 'standard-react'],
-  env: {
-    mocha: true
-  },
   parserOptions: {
     ecmaVersion: 6
   },
