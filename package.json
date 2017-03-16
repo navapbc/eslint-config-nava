@@ -15,9 +15,18 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "eslint": "^3.17.1"
+  },
+  "dependencies": {
+    "eslint-config-standard": "7.0.1",
+    "eslint-config-standard-react": "4.3.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-standard": "2.1.1"
   },
   "peerDependencies": {
-    "eslint": ">=3.8.1"
+    "eslint": ">=3.17.1"
   }
 }

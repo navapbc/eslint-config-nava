@@ -2,6 +2,14 @@
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Navanauts and beyond.
 
+We're based on [Standard JS](http://standardjs.com/), which provides a complete node/browser/react ruleset, with a few changes:
+
+* using `eslint` directly, since we want to relax rulesets for adoption into existing repos
+* enforcing use of semicolons
+* locking to es6, as we don't assume babel compilation for node services
+
+See the full Standard JS ruleset here: https://github.com/feross/eslint-config-standard/blob/master/eslintrc.json
+and for Standard React: https://github.com/feross/eslint-config-standard-react/blob/master/eslintrc.json
 
 ## Installation
 
@@ -9,6 +17,10 @@ Note: This package isn't published to NPM yet, so you'll need to reference it by
 
 ```
 $ npm install --save-dev eslint navahq/eslint-config-nava
+```
+or
+```
+$ yarn add eslint navahq/eslint-config-nava --dev
 ```
 
 
@@ -19,21 +31,6 @@ Once the `eslint-config-nava` package is installed, you can use it by specifying
 ```js
 {
   "extends": "nava",
-  "rules": {
-    // Additional, per-project rules...
-  }
-}
-```
-
-### Using the `nava` config with `eslint:recommended`
-
-It's suggested to use the `nava` ruleset alongside the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/).
-
-To use in conjunction with ESLint's recommended rule set, extend them both, making sure to list `nava` last:
-
-```js
-{
-  "extends": ["eslint:recommended", "nava"],
   "rules": {
     // Additional, per-project rules...
   }
