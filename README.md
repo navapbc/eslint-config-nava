@@ -8,19 +8,16 @@ We're based on [Standard JS](http://standardjs.com/), which provides a complete 
 * enforcing use of semicolons
 * locking to es6, as we don't assume babel compilation for node services
 
-See the full Standard JS ruleset here: https://github.com/feross/eslint-config-standard/blob/master/eslintrc.json
-and for Standard React: https://github.com/feross/eslint-config-standard-react/blob/master/eslintrc.json
+[See the full Standard JS ruleset here](https://github.com/feross/eslint-config-standard/blob/master/eslintrc.json) and the [Standard React ruleset here](https://github.com/feross/eslint-config-standard-react/blob/master/eslintrc.json).
 
 ## Installation
 
-Note: This package isn't published to NPM yet, so you'll need to reference it by its repo when installing, for now:
-
 ```
-$ npm install --save-dev eslint navahq/eslint-config-nava
+$ npm install eslint eslint-config-nava --save-dev
 ```
 or
 ```
-$ yarn add eslint navahq/eslint-config-nava --dev
+$ yarn add eslint eslint-config-nava --dev
 ```
 
 
