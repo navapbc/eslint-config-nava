@@ -15,6 +15,8 @@ module.exports = {
     */
     'linebreak-style': ['error', 'unix'],
     'sort-vars': ['error', {ignoreCase: true}],
-    'no-alert': 'error'
+    'no-alert': 'error',
+    'no-var': 'error',
+    'prefer-const': 'error'
   }
 };
