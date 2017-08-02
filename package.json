@@ -6,7 +6,7 @@
   "repository": "navahq/eslint-config-nava",
   "author": "Nava PBC",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0.0"
   },
   "files": [
     "index.js"
