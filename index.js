@@ -1,8 +1,5 @@
 module.exports = {
   extends: ['standard', 'standard-react'],
-  env: {
-    es6: true
-  },
   rules: {
     /*
       Standard overrides
