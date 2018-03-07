@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['standard', 'standard-react'],
-  parserOptions: {
-    ecmaVersion: 6
+  env: {
+    es6: true
   },
   rules: {
     /*
