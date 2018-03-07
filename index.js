@@ -17,6 +17,7 @@ module.exports = {
     'sort-vars': ['error', {ignoreCase: true}],
     'no-alert': 'error',
     'no-var': 'error',
-    'prefer-const': 'error'
+    'prefer-const': 'error',
+    'prefer-arrow-callback': 'error'
   }
 };
