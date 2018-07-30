@@ -4,9 +4,9 @@
 
 We're based on [Standard JS](http://standardjs.com/), which provides a complete node/browser/react ruleset, with a few changes:
 
-* using `eslint` directly, since we want to relax rulesets for adoption into existing repos
-* enforcing use of semicolons
-* locking to es6, as we don't assume babel compilation for node services
+* using `eslint-config-standard` instead of `standard`, since we want to add additional rules
+* adding additional rules that either promote correctness or a higher signal-to-noise ratio
+* avoiding rules that are purely stylistic in nature
 
 [See the full Standard JS ruleset here](https://github.com/feross/eslint-config-standard/blob/master/eslintrc.json) and the [Standard React ruleset here](https://github.com/feross/eslint-config-standard-react/blob/master/eslintrc.json).
 
