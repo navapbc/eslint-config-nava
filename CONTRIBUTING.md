@@ -4,6 +4,11 @@
 1. Commit your changes
 1. Make a pull request against the `master` branch
 
+### Testing
+
+- If you'd like to test linting rules, add or update the `.js` files in the `test` directory.
+- Then run `npm run lint`
+
 ## Release process
 
 1. Bump the version in `package.json`
