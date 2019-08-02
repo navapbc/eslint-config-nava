@@ -13,4 +13,4 @@ module.exports = {
     'promise/no-return-wrap': 'error',
     'promise/valid-params': 'error'
   }
-};
+}
