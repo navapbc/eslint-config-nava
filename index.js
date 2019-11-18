@@ -8,7 +8,6 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-arrow-callback': 'error',
-    'promise/no-native': 'error',
     'promise/catch-or-return': 'error',
     'promise/no-return-wrap': 'error',
     'promise/valid-params': 'error'
