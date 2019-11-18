@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nava",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "ESLint shareable config for Navanauts and beyond",
   "license": "Apache-2.0",
   "repository": "navahq/eslint-config-nava",
