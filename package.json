@@ -6,7 +6,7 @@
   "repository": "navahq/eslint-config-nava",
   "author": "Nava PBC",
   "scripts": {
-    "lint": "eslint ./test -f table"
+    "lint": "eslint ./test"
   },
   "engines": {
     "node": ">=16.0.0",
