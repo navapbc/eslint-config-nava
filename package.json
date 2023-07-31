@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nava",
-  "version": "12.1.1",
+  "version": "13.0.0",
   "description": "ESLint shareable config for Navanauts and beyond",
   "license": "Apache-2.0",
   "repository": "navapbc/eslint-config-nava",
@@ -9,22 +9,22 @@
     "lint": "eslint ./test"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=18.0.0",
     "npm": ">=7.0.0"
   },
   "files": [
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^8.27.0"
+    "eslint": "^8.46.0"
   },
   "dependencies": {
-    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-config-standard-react": "^13.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2"
+    "eslint-plugin-react": "^7.33.1"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
