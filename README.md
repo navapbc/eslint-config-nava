@@ -1,5 +1,9 @@
 # eslint-config-nava
 
+> [!IMPORTANT] > **This package is no longer maintained.** We recommend using a layering of: Prettier for code formatting and `eslint:recommended` for basic JS linting, the linting config provided by your project's React framework ([Next.js](https://nextjs.org/docs/pages/building-your-application/configuring/eslint), [Remix](https://www.npmjs.com/package/@remix-run/eslint-config)), and [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) if your project uses TypeScript.
+
+---
+
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Navanauts and beyond.
 
 We're based on [Standard JS](http://standardjs.com/), which provides a complete node/browser/react ruleset, with a few changes:
