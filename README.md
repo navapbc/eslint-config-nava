@@ -1,7 +1,7 @@
 # eslint-config-nava
 
 > [!IMPORTANT] 
-> **This package is no longer maintained.** We recommend using a layering of: Prettier for code formatting, [`eslint:recommended`](https://eslint.org/docs/latest/use/configure/configuration-files#extending-configuration-files) for basic JS linting, the linting config provided by your project's React framework ([Next.js](https://nextjs.org/docs/pages/building-your-application/configuring/eslint), [Remix](https://www.npmjs.com/package/@remix-run/eslint-config)), and [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) if your project uses TypeScript.
+> **This package is no longer maintained.** We recommend using a layering of: Prettier for code formatting, [`eslint:recommended`](https://eslint.org/docs/latest/use/configure/configuration-files#extending-configuration-files) for basic JS linting, the linting config provided by your project's React framework ([Next.js](https://nextjs.org/docs/pages/building-your-application/configuring/eslint), [Remix](https://www.npmjs.com/package/@remix-run/eslint-config)), and [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) if your project uses TypeScript. You can [reference Nava's Next.js template for an example](https://github.com/navapbc/template-application-nextjs).
 
 ---
 
